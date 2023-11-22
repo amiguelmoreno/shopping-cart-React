@@ -1,0 +1,35 @@
+html {
+  background-color: aqua;
+}
+
+.header {
+  background-color: rgb(171, 171, 171);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.main .products-list {
+  width: 60%;
+  background-color: rgb(150, 229, 203);
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main .products-list .product {
+  flex: 1;
+}
+.main .shopping-cart {
+  padding: 2rem;
+  flex: 1;
+  background-color: rgb(187, 239, 109);
+}
+
+/*# sourceMappingURL=style.css.map */

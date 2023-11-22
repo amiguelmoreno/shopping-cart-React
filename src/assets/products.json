@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone",
+    "description": "Latest model with advanced features",
+    "price": 699.99
+  },
+  {
+    "id": 2,
+    "title": "Wireless Headphones",
+    "description": "Noise-cancelling headphones for immersive audio",
+    "price": 129.99
+  },
+  {
+    "id": 3,
+    "title": "Coffee Maker",
+    "description": "Programmable coffee maker for your morning brew",
+    "price": 49.99
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker",
+    "description": "Track your daily activities and monitor your health",
+    "price": 79.99
+  },
+  {
+    "id": 5,
+    "title": "Laptop Bag",
+    "description": "Stylish and durable laptop bag for professionals",
+    "price": 39.99
+  },
+  {
+    "id": 6,
+    "title": "Bluetooth Speaker",
+    "description": "Portable speaker with high-quality sound",
+    "price": 59.99
+  },
+  {
+    "id": 7,
+    "title": "HD Webcam",
+    "description": "Crystal clear video for your virtual meetings",
+    "price": 89.99
+  },
+  {
+    "id": 8,
+    "title": "External Hard Drive",
+    "description": "1TB storage for backup and additional space",
+    "price": 79.99
+  },
+  {
+    "id": 9,
+    "title": "Gaming Mouse",
+    "description": "Precision gaming mouse for an enhanced gaming experience",
+    "price": 49.99
+  },
+  {
+    "id": 10,
+    "title": "Wireless Charger",
+    "description": "Fast charging for compatible devices",
+    "price": 29.99
+  }
+]
