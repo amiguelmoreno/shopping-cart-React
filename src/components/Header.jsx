@@ -5,7 +5,7 @@ export default function Header({ itemsList }) {
     return Number(
       arr
         .filter((item) => item.price)
-        .reduce((acc, curr) => acc + curr.price, 0)
+        .reduce((acc, curr) => acc + curr.price * curr.quantity, 0)
     ).toFixed(2);
   }
 

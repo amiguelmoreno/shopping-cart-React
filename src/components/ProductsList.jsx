@@ -2,14 +2,32 @@
 
 export default function ProductsList({ products, itemsList, setItemsList }) {
   function addItemtoList(item) {
-    const finalItem = {
-      id: Date.now(),
-      title: item.title,
-      price: item.price,
-      quantity: 1,
-    };
+    const repeatedItemIndex = itemsList.findIndex(
+      (objeto) => objeto.title === item.title
+    );
 
-    setItemsList([...itemsList, finalItem]);
+    if (repeatedItemIndex !== -1) {
+      // Si el objeto ya existe, crea una nueva lista actualizando la cantidad del objeto
+      const updatedItemsList = itemsList.map((objeto, index) =>
+        index === repeatedItemIndex
+          ? { ...objeto, quantity: objeto.quantity + 1 }
+          : objeto
+      );
+
+      // Actualiza el estado con la nueva lista
+      setItemsList(updatedItemsList);
+    } else {
+      // Si el objeto no existe, agrega el nuevo objeto al estado
+      setItemsList([
+        ...itemsList,
+        {
+          id: Date.now(),
+          price: item.price,
+          quantity: 1,
+          title: item.title,
+        },
+      ]);
+    }
   }
 
   return (
